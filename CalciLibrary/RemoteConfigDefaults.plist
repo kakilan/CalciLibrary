@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>can_add</key>
+	<true/>
+	<key>can_subtract</key>
+	<true/>
+	<key>can_multiply</key>
+	<true/>
+	<key>can_divide</key>
+	<true/>
+	<key>can_do_sine</key>
+	<true/>
+	<key>can_do_cosine</key>
+	<true/>
+	<key>can_find_bit</key>
+	<false/>
+	<key>can_find_map</key>
+	<false/>
+</dict>
+</plist>
