@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A459C987F6A33FC58EFC6A2 /* Pods_CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA7826E9DB9A2EDD0FB4966 /* Pods_CalciLibrary.framework */; };
-		C805B6A239E05BA333E918D6 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEED33AE6F1DDCF2E1E20D1 /* Pods_CalciLibrary_CalciLibraryTests.framework */; };
 		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
 		FE91B09124E9A8B5009B940D /* CalciLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */; };
 		FE91B09324E9A8B5009B940D /* CalciLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91B08524E9A8B5009B940D /* CalciLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,12 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D7C7550AA7E7D51162BE8E5 /* Pods-CalciLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.debug.xcconfig"; sourceTree = "<group>"; };
-		4FA7826E9DB9A2EDD0FB4966 /* Pods_CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5538BFC458A6BA5A8F977C95 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
-		906E8754E92F3F14CD578DCA /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
-		A2A7494713B29F2C53371420 /* Pods-CalciLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.release.xcconfig"; sourceTree = "<group>"; };
-		BCEED33AE6F1DDCF2E1E20D1 /* Pods_CalciLibrary_CalciLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary_CalciLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE91B08224E9A8B5009B940D /* CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE91B08524E9A8B5009B940D /* CalciLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalciLibrary.h; sourceTree = "<group>"; };
 		FE91B08624E9A8B5009B940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A459C987F6A33FC58EFC6A2 /* Pods_CalciLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +76,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */,
-				C805B6A239E05BA333E918D6 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,21 +85,8 @@
 		177607F21C0FDAD72FB900FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D7C7550AA7E7D51162BE8E5 /* Pods-CalciLibrary.debug.xcconfig */,
-				A2A7494713B29F2C53371420 /* Pods-CalciLibrary.release.xcconfig */,
-				5538BFC458A6BA5A8F977C95 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */,
-				906E8754E92F3F14CD578DCA /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		7C5A132C751413DEB28D6B02 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4FA7826E9DB9A2EDD0FB4966 /* Pods_CalciLibrary.framework */,
-				BCEED33AE6F1DDCF2E1E20D1 /* Pods_CalciLibrary_CalciLibraryTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FE91B07824E9A8B5009B940D = {
@@ -119,7 +96,6 @@
 				FE91B08F24E9A8B5009B940D /* CalciLibraryTests */,
 				FE91B08324E9A8B5009B940D /* Products */,
 				177607F21C0FDAD72FB900FF /* Pods */,
-				7C5A132C751413DEB28D6B02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,7 +160,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE91B09624E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibrary" */;
 			buildPhases = (
-				8C4D163A1F107EA14228DF88 /* [CP] Check Pods Manifest.lock */,
 				FE91B07D24E9A8B5009B940D /* Headers */,
 				FE91B07E24E9A8B5009B940D /* Sources */,
 				FE91B07F24E9A8B5009B940D /* Frameworks */,
@@ -203,11 +178,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE91B09924E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibraryTests" */;
 			buildPhases = (
-				68884AA38FEEB862C0531FFC /* [CP] Check Pods Manifest.lock */,
 				FE91B08724E9A8B5009B940D /* Sources */,
 				FE91B08824E9A8B5009B940D /* Frameworks */,
 				FE91B08924E9A8B5009B940D /* Resources */,
-				8700461A68602EB236B60C50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,70 +248,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		68884AA38FEEB862C0531FFC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CalciLibrary-CalciLibraryTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8700461A68602EB236B60C50 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C4D163A1F107EA14228DF88 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CalciLibrary-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE91B07E24E9A8B5009B940D /* Sources */ = {
@@ -503,7 +412,6 @@
 		};
 		FE91B09724E9A8B5009B940D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D7C7550AA7E7D51162BE8E5 /* Pods-CalciLibrary.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,7 +437,6 @@
 		};
 		FE91B09824E9A8B5009B940D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2A7494713B29F2C53371420 /* Pods-CalciLibrary.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,7 +461,6 @@
 		};
 		FE91B09A24E9A8B5009B940D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5538BFC458A6BA5A8F977C95 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,7 +479,6 @@
 		};
 		FE91B09B24E9A8B5009B940D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 906E8754E92F3F14CD578DCA /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
