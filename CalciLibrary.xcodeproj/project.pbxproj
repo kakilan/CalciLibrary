@@ -17,6 +17,7 @@
 		FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
 		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
 		FE5A4E6724EAAC02006D7A33 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */; };
+		FE67C00224EB0978003B15FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
 		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
 		FE91B09124E9A8B5009B940D /* CalciLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */; };
 		FE91B09324E9A8B5009B940D /* CalciLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91B08524E9A8B5009B940D /* CalciLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FE67C00024EB0958003B15FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE91B07924E9A8B5009B940D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE67BFF924EB0919003B15FE;
+			remoteInfo = Resources;
+		};
 		FE91B08D24E9A8B5009B940D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FE91B07924E9A8B5009B940D /* Project object */;
@@ -58,6 +66,8 @@
 		FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5A4E6224EAAB85006D7A33 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
 		FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalytics.swift; sourceTree = "<group>"; };
+		FE67BFFA24EB0919003B15FE /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE67BFFC24EB0919003B15FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE91B08224E9A8B5009B940D /* CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE91B08524E9A8B5009B940D /* CalciLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalciLibrary.h; sourceTree = "<group>"; };
 		FE91B08624E9A8B5009B940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FE67BFF724EB0919003B15FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE91B07F24E9A8B5009B940D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,11 +135,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FE67BFFB24EB0919003B15FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE67BFFC24EB0919003B15FE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FE91B07824E9A8B5009B940D = {
 			isa = PBXGroup;
 			children = (
 				FE91B08424E9A8B5009B940D /* CalciLibrary */,
 				FE91B08F24E9A8B5009B940D /* CalciLibraryTests */,
+				FE67BFFB24EB0919003B15FE /* Resources */,
 				FE91B08324E9A8B5009B940D /* Products */,
 				177607F21C0FDAD72FB900FF /* Pods */,
 				3C5EB318BAA74EAAA8FDA3C6 /* Frameworks */,
@@ -134,6 +160,7 @@
 			children = (
 				FE91B08224E9A8B5009B940D /* CalciLibrary.framework */,
 				FE91B08B24E9A8B5009B940D /* CalciLibraryTests.xctest */,
+				FE67BFFA24EB0919003B15FE /* Resources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,6 +216,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		FE67BFF924EB0919003B15FE /* Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE67BFFF24EB0919003B15FE /* Build configuration list for PBXNativeTarget "Resources" */;
+			buildPhases = (
+				FE67BFF624EB0919003B15FE /* Sources */,
+				FE67BFF724EB0919003B15FE /* Frameworks */,
+				FE67BFF824EB0919003B15FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resources;
+			productName = Resources;
+			productReference = FE67BFFA24EB0919003B15FE /* Resources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		FE91B08124E9A8B5009B940D /* CalciLibrary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE91B09624E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibrary" */;
@@ -202,6 +246,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FE67C00124EB0958003B15FE /* PBXTargetDependency */,
 			);
 			name = CalciLibrary;
 			productName = CalciLibrary;
@@ -238,6 +283,9 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = Akilan;
 				TargetAttributes = {
+					FE67BFF924EB0919003B15FE = {
+						CreatedOnToolsVersion = 11.6;
+					};
 					FE91B08124E9A8B5009B940D = {
 						CreatedOnToolsVersion = 11.6;
 						LastSwiftMigration = 1160;
@@ -262,11 +310,20 @@
 			targets = (
 				FE91B08124E9A8B5009B940D /* CalciLibrary */,
 				FE91B08A24E9A8B5009B940D /* CalciLibraryTests */,
+				FE67BFF924EB0919003B15FE /* Resources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FE67BFF824EB0919003B15FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE67C00224EB0978003B15FE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE91B08024E9A8B5009B940D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +406,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FE67BFF624EB0919003B15FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE91B07E24E9A8B5009B940D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,6 +449,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FE67C00124EB0958003B15FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE67BFF924EB0919003B15FE /* Resources */;
+			targetProxy = FE67C00024EB0958003B15FE /* PBXContainerItemProxy */;
+		};
 		FE91B08E24E9A8B5009B940D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FE91B08124E9A8B5009B940D /* CalciLibrary */;
@@ -393,6 +462,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FE67BFFD24EB0919003B15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.Resources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FE67BFFE24EB0919003B15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.Resources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		FE91B09424E9A8B5009B940D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -605,6 +706,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FE67BFFF24EB0919003B15FE /* Build configuration list for PBXNativeTarget "Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE67BFFD24EB0919003B15FE /* Debug */,
+				FE67BFFE24EB0919003B15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FE91B07C24E9A8B5009B940D /* Build configuration list for PBXProject "CalciLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

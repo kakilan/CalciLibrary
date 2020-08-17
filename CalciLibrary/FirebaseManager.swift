@@ -11,20 +11,23 @@ import FirebaseRemoteConfig
 
 class FirebaseManager {
     
-    private var remoteConfig: RemoteConfig
+    private var remoteConfig: RemoteConfig = RemoteConfig.remoteConfig()
     private var offlineOperations: Array<String> = ["canAdd", "canSubtract", "canMultiply", "canDivide", "canDoSine", "canDoCosine"]
     
     public init() {
         
         // configure FirebaseApp
-        let bundle = Bundle(for: FirebaseManager.self)
+        guard let resourcePath = Bundle.main.path(forResource: "Resources", ofType: "bundle"),
+            let bundle = Bundle(path: resourcePath) else {
+                print("Resources not found")
+                return
+        }
         let filePath = bundle.path(forResource: "GoogleService-Info", ofType: "plist")!
         let options = FirebaseOptions(contentsOfFile: filePath)
         FirebaseApp.configure(options: options!)
         FirebaseApp.configure()
         
         // configure RemoteConfig
-        remoteConfig = RemoteConfig.remoteConfig()
         let settings = RemoteConfigSettings()
         settings.minimumFetchInterval = 300
         remoteConfig.configSettings = settings
