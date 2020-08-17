@@ -10,12 +10,8 @@ target 'CalciLibrary' do
   pod 'Firebase/Analytics', "~> 6.30.0"
   pod 'Firebase/RemoteConfig', "~> 6.30.0"
 
-end
-
-target 'Resources' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for Resources
+  target 'CalciLibraryTests' do
+    # Pods for testing
+  end
 
 end
