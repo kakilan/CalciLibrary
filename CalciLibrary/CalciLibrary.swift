@@ -10,7 +10,7 @@ import Foundation
 
 open class CalciLibrary {
     
-    public var analytics: Analytics = FirebaseAnalytics()
+    public var analytics: Analysable = CalciAnalytics()
     
     private var remoteConfig: RemoteConfigService
     private var bitCoinService: BitCoinService

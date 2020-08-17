@@ -1,5 +1,5 @@
 //
-//  Analytics.swift
+//  Analysable.swift
 //  CalciLibrary
 //
 //  Created by Akilan on 17/08/20.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol Analytics {
+public protocol Analysable {
     func logEvent(event: Event)
 }
