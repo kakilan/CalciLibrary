@@ -15,12 +15,30 @@ class FirebaseManager {
     private var offlineOperations: Array<String> = ["canAdd", "canSubtract", "canMultiply", "canDivide", "canDoSine", "canDoCosine"]
     
     public init() {
+        
+        // configure FirebaseApp
+        let bundle = Bundle(for: FirebaseManager.self)
+        let filePath = bundle.path(forResource: "GoogleService-Info", ofType: "plist")!
+        let options = FirebaseOptions(contentsOfFile: filePath)
+        FirebaseApp.configure(options: options!)
         FirebaseApp.configure()
+        
+        // configure RemoteConfig
         remoteConfig = RemoteConfig.remoteConfig()
         let settings = RemoteConfigSettings()
         settings.minimumFetchInterval = 300
         remoteConfig.configSettings = settings
-        remoteConfig.setDefaults(fromPlist: "RemoteConfigDefaults")
+        let defaults: [String: Any?] = [
+            "canAdd"            : true,
+            "canSubtract"       : true,
+            "canMultiply"       : true,
+            "canDivide"         : true,
+            "canDoSine"         : true,
+            "canDoCosine"       : true,
+            "can_find_bit"      : false,
+            "can_find_map"      : false
+        ]
+        remoteConfig.setDefaults(defaults as? [String : NSObject])
     }
 }
 

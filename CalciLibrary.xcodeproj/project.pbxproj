@@ -14,7 +14,7 @@
 		FE0FE22F24EAD3C600CD7D04 /* MockReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */; };
 		FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */; };
 		FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */; };
-		FE0FE26324EAF09F00CD7D04 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */; };
+		FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
 		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
 		FE5A4E6724EAAC02006D7A33 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */; };
 		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
@@ -31,8 +31,6 @@
 		FE91B0BC24E9A8FB009B940D /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */; };
 		FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */; };
 		FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */; };
-		FE91B0C824E9A9EC009B940D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */; };
-		FE91B0C924E9A9EC009B940D /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE91B0C624E9A9EC009B940D /* RemoteConfigDefaults.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +55,7 @@
 		FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReverseGeocodeService.swift; sourceTree = "<group>"; };
 		FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRemoteConfigService.swift; sourceTree = "<group>"; };
 		FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBitCoinService.swift; sourceTree = "<group>"; };
+		FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5A4E6224EAAB85006D7A33 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
 		FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalytics.swift; sourceTree = "<group>"; };
 		FE91B08224E9A8B5009B940D /* CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,8 +75,6 @@
 		FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeManager.swift; sourceTree = "<group>"; };
 		FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinManager.swift; sourceTree = "<group>"; };
 		FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalciLibrary.swift; sourceTree = "<group>"; };
-		FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FE91B0C624E9A9EC009B940D /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,9 +143,8 @@
 			children = (
 				FE91B08524E9A8B5009B940D /* CalciLibrary.h */,
 				FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */,
-				FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */,
-				FE91B0C624E9A9EC009B940D /* RemoteConfigDefaults.plist */,
 				FE91B0AA24E9A8E8009B940D /* BitCoin.swift */,
+				FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */,
 				FE91B0AD24E9A8EC009B940D /* HttpClient.swift */,
 				FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */,
 				FE91B0B024E9A8F3009B940D /* BitCoinService.swift */,
@@ -275,8 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE91B0C924E9A9EC009B940D /* RemoteConfigDefaults.plist in Resources */,
-				FE91B0C824E9A9EC009B940D /* GoogleService-Info.plist in Resources */,
+				FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +353,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0FE26324EAF09F00CD7D04 /* GoogleService-Info.plist in Sources */,
 				FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */,
 				FE91B0AE24E9A8EC009B940D /* URLSessionProtocol.swift in Sources */,
 				FE91B0AB24E9A8E8009B940D /* BitCoin.swift in Sources */,
