@@ -14,6 +14,7 @@
 		FE0FE22F24EAD3C600CD7D04 /* MockReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */; };
 		FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */; };
 		FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */; };
+		FE0FE26324EAF09F00CD7D04 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */; };
 		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
 		FE5A4E6724EAAC02006D7A33 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */; };
 		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
@@ -357,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0FE26324EAF09F00CD7D04 /* GoogleService-Info.plist in Sources */,
 				FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */,
 				FE91B0AE24E9A8EC009B940D /* URLSessionProtocol.swift in Sources */,
 				FE91B0AB24E9A8E8009B940D /* BitCoin.swift in Sources */,
