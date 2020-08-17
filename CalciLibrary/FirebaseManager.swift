@@ -17,11 +17,7 @@ class FirebaseManager {
     public init() {
         
         // configure FirebaseApp
-        guard let resourcePath = Bundle.main.path(forResource: "Resources", ofType: "bundle"),
-            let bundle = Bundle(path: resourcePath) else {
-                print("Resources not found")
-                return
-        }
+        let bundle = Bundle(for: type(of: self))
         let filePath = bundle.path(forResource: "GoogleService-Info", ofType: "plist")!
         let options = FirebaseOptions(contentsOfFile: filePath)
         FirebaseApp.configure(options: options!)
