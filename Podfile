@@ -7,8 +7,8 @@ target 'CalciLibrary' do
 
   # Pods for CalciLibrary
   pod 'Firebase', "~> 6.30.0"
-  pod 'Firebase/Analytics', "~> 6.7.2"
-  pod 'Firebase/RemoteConfig', "~> 4.9.0"
+  pod 'Firebase/Analytics', "~> 6.30.0"
+  pod 'Firebase/RemoteConfig', "~> 6.30.0"
 
   target 'CalciLibraryTests' do
     # Pods for testing
