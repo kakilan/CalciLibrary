@@ -3,226 +3,201 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B65205146F2294439F0B418 /* Pods_CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909D9C13968909F79790B3 /* Pods_CalciLibrary.framework */; };
-		96454777DC3724788C7F61C7 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */; };
-		FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22624EABBEA00CD7D04 /* Analysable.swift */; };
-		FE0FE22924EABEF200CD7D04 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22824EABEF200CD7D04 /* Event.swift */; };
-		FE0FE22F24EAD3C600CD7D04 /* MockReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */; };
-		FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */; };
-		FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */; };
-		FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
-		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
-		FE5A4E6724EAAC02006D7A33 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */; };
-		FE67C00224EB0978003B15FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
-		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
-		FE91B09124E9A8B5009B940D /* CalciLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */; };
-		FE91B09324E9A8B5009B940D /* CalciLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91B08524E9A8B5009B940D /* CalciLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE91B0AB24E9A8E8009B940D /* BitCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0AA24E9A8E8009B940D /* BitCoin.swift */; };
-		FE91B0AE24E9A8EC009B940D /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */; };
-		FE91B0AF24E9A8EC009B940D /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0AD24E9A8EC009B940D /* HttpClient.swift */; };
-		FE91B0B424E9A8F3009B940D /* BitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B024E9A8F3009B940D /* BitCoinService.swift */; };
-		FE91B0B524E9A8F3009B940D /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B124E9A8F3009B940D /* Calculator.swift */; };
-		FE91B0B624E9A8F3009B940D /* ReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */; };
-		FE91B0B724E9A8F3009B940D /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */; };
-		FE91B0BB24E9A8FB009B940D /* BitCoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */; };
-		FE91B0BC24E9A8FB009B940D /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */; };
-		FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */; };
-		FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */; };
+		2F8E9321D8BDEEF0BDCBBA3A /* Pods_Resources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37D5976D172A7D9CB928DFD /* Pods_Resources.framework */; };
+		E94594C9104D5C6FA6A67B9E /* Pods_CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717E515221494E33957F8754 /* Pods_CalciLibrary.framework */; };
+		FE4DA51924EB0CB000FC6810 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA50A24EB0CB000FC6810 /* FirebaseManager.swift */; };
+		FE4DA51A24EB0CB000FC6810 /* ReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA50B24EB0CB000FC6810 /* ReverseGeocodeService.swift */; };
+		FE4DA51B24EB0CB000FC6810 /* BitCoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA50C24EB0CB000FC6810 /* BitCoinManager.swift */; };
+		FE4DA51C24EB0CB000FC6810 /* Analysable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA50D24EB0CB000FC6810 /* Analysable.swift */; };
+		FE4DA51D24EB0CB000FC6810 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA50E24EB0CB000FC6810 /* EventType.swift */; };
+		FE4DA51E24EB0CB000FC6810 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA50F24EB0CB000FC6810 /* Calculator.swift */; };
+		FE4DA51F24EB0CB000FC6810 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51024EB0CB000FC6810 /* FirebaseAnalytics.swift */; };
+		FE4DA52024EB0CB000FC6810 /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51124EB0CB000FC6810 /* RemoteConfigService.swift */; };
+		FE4DA52124EB0CB000FC6810 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51224EB0CB000FC6810 /* URLSessionProtocol.swift */; };
+		FE4DA52224EB0CB000FC6810 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51324EB0CB000FC6810 /* HttpClient.swift */; };
+		FE4DA52324EB0CB000FC6810 /* ReverseGeocodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51424EB0CB000FC6810 /* ReverseGeocodeManager.swift */; };
+		FE4DA52424EB0CB000FC6810 /* BitCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51524EB0CB000FC6810 /* BitCoin.swift */; };
+		FE4DA52524EB0CB000FC6810 /* BitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51624EB0CB000FC6810 /* BitCoinService.swift */; };
+		FE4DA52624EB0CB000FC6810 /* CalciLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51724EB0CB000FC6810 /* CalciLibrary.swift */; };
+		FE4DA52724EB0CB000FC6810 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DA51824EB0CB000FC6810 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FE67C00024EB0958003B15FE /* PBXContainerItemProxy */ = {
+		FE4DA50724EB0C6200FC6810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FE91B07924E9A8B5009B940D /* Project object */;
+			containerPortal = FE4DA4EB24EB0BF900FC6810 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE67BFF924EB0919003B15FE;
+			remoteGlobalIDString = FE4DA50024EB0C1B00FC6810;
 			remoteInfo = Resources;
-		};
-		FE91B08D24E9A8B5009B940D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE91B07924E9A8B5009B940D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE91B08124E9A8B5009B940D;
-			remoteInfo = CalciLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FE4DA4F124EB0BF900FC6810 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1A9B14AD34DBC3B351A2F669 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
-		20909D9C13968909F79790B3 /* Pods_CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		531358C6F1778C03179ACBE1 /* Pods-CalciLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.debug.xcconfig"; sourceTree = "<group>"; };
-		55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary_CalciLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A54F4CA688C89D4C982692 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
-		CA6BBAE721B80FCE7E238057 /* Pods-CalciLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.release.xcconfig"; sourceTree = "<group>"; };
-		FE0FE22624EABBEA00CD7D04 /* Analysable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analysable.swift; sourceTree = "<group>"; };
-		FE0FE22824EABEF200CD7D04 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReverseGeocodeService.swift; sourceTree = "<group>"; };
-		FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRemoteConfigService.swift; sourceTree = "<group>"; };
-		FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBitCoinService.swift; sourceTree = "<group>"; };
-		FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FE5A4E6224EAAB85006D7A33 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
-		FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalytics.swift; sourceTree = "<group>"; };
-		FE67BFFA24EB0919003B15FE /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE67BFFC24EB0919003B15FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE91B08224E9A8B5009B940D /* CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE91B08524E9A8B5009B940D /* CalciLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalciLibrary.h; sourceTree = "<group>"; };
-		FE91B08624E9A8B5009B940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE91B08B24E9A8B5009B940D /* CalciLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalciLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalciLibraryTests.swift; sourceTree = "<group>"; };
-		FE91B09224E9A8B5009B940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE91B0AA24E9A8E8009B940D /* BitCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoin.swift; sourceTree = "<group>"; };
-		FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
-		FE91B0AD24E9A8EC009B940D /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
-		FE91B0B024E9A8F3009B940D /* BitCoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinService.swift; sourceTree = "<group>"; };
-		FE91B0B124E9A8F3009B940D /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
-		FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeService.swift; sourceTree = "<group>"; };
-		FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
-		FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
-		FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeManager.swift; sourceTree = "<group>"; };
-		FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinManager.swift; sourceTree = "<group>"; };
-		FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalciLibrary.swift; sourceTree = "<group>"; };
+		32D2590276F8441A94CA4A16 /* Pods-Resources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resources.debug.xcconfig"; path = "Target Support Files/Pods-Resources/Pods-Resources.debug.xcconfig"; sourceTree = "<group>"; };
+		5696013DF09D8619060ACD42 /* Pods-Resources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resources.release.xcconfig"; path = "Target Support Files/Pods-Resources/Pods-Resources.release.xcconfig"; sourceTree = "<group>"; };
+		717E515221494E33957F8754 /* Pods_CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5B01D70518EC1B731DE90F /* Pods-CalciLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		E37D5976D172A7D9CB928DFD /* Pods_Resources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5F2F9CAAC5FF0A1D9E12E8 /* Pods-CalciLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4DA4F324EB0BF900FC6810 /* libCalciLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCalciLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4DA50124EB0C1B00FC6810 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4DA50324EB0C1B00FC6810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4DA50924EB0CB000FC6810 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE4DA50A24EB0CB000FC6810 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		FE4DA50B24EB0CB000FC6810 /* ReverseGeocodeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeService.swift; sourceTree = "<group>"; };
+		FE4DA50C24EB0CB000FC6810 /* BitCoinManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitCoinManager.swift; sourceTree = "<group>"; };
+		FE4DA50D24EB0CB000FC6810 /* Analysable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analysable.swift; sourceTree = "<group>"; };
+		FE4DA50E24EB0CB000FC6810 /* EventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		FE4DA50F24EB0CB000FC6810 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		FE4DA51024EB0CB000FC6810 /* FirebaseAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAnalytics.swift; sourceTree = "<group>"; };
+		FE4DA51124EB0CB000FC6810 /* RemoteConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		FE4DA51224EB0CB000FC6810 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		FE4DA51324EB0CB000FC6810 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		FE4DA51424EB0CB000FC6810 /* ReverseGeocodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeManager.swift; sourceTree = "<group>"; };
+		FE4DA51524EB0CB000FC6810 /* BitCoin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitCoin.swift; sourceTree = "<group>"; };
+		FE4DA51624EB0CB000FC6810 /* BitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitCoinService.swift; sourceTree = "<group>"; };
+		FE4DA51724EB0CB000FC6810 /* CalciLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalciLibrary.swift; sourceTree = "<group>"; };
+		FE4DA51824EB0CB000FC6810 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE67BFF724EB0919003B15FE /* Frameworks */ = {
+		FE4DA4F024EB0BF900FC6810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94594C9104D5C6FA6A67B9E /* Pods_CalciLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE91B07F24E9A8B5009B940D /* Frameworks */ = {
+		FE4DA4FE24EB0C1B00FC6810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B65205146F2294439F0B418 /* Pods_CalciLibrary.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE91B08824E9A8B5009B940D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */,
-				96454777DC3724788C7F61C7 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */,
+				2F8E9321D8BDEEF0BDCBBA3A /* Pods_Resources.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		177607F21C0FDAD72FB900FF /* Pods */ = {
+		7FA1441890D34AB3B3A0E16A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				531358C6F1778C03179ACBE1 /* Pods-CalciLibrary.debug.xcconfig */,
-				CA6BBAE721B80FCE7E238057 /* Pods-CalciLibrary.release.xcconfig */,
-				1A9B14AD34DBC3B351A2F669 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */,
-				78A54F4CA688C89D4C982692 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		3C5EB318BAA74EAAA8FDA3C6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				20909D9C13968909F79790B3 /* Pods_CalciLibrary.framework */,
-				55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */,
+				717E515221494E33957F8754 /* Pods_CalciLibrary.framework */,
+				E37D5976D172A7D9CB928DFD /* Pods_Resources.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE67BFFB24EB0919003B15FE /* Resources */ = {
+		A2595FD494E24E6EB8202D65 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FE67BFFC24EB0919003B15FE /* Info.plist */,
+				EF5F2F9CAAC5FF0A1D9E12E8 /* Pods-CalciLibrary.debug.xcconfig */,
+				7C5B01D70518EC1B731DE90F /* Pods-CalciLibrary.release.xcconfig */,
+				32D2590276F8441A94CA4A16 /* Pods-Resources.debug.xcconfig */,
+				5696013DF09D8619060ACD42 /* Pods-Resources.release.xcconfig */,
 			);
-			path = Resources;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		FE91B07824E9A8B5009B940D = {
+		FE4DA4EA24EB0BF900FC6810 = {
 			isa = PBXGroup;
 			children = (
-				FE91B08424E9A8B5009B940D /* CalciLibrary */,
-				FE91B08F24E9A8B5009B940D /* CalciLibraryTests */,
-				FE67BFFB24EB0919003B15FE /* Resources */,
-				FE91B08324E9A8B5009B940D /* Products */,
-				177607F21C0FDAD72FB900FF /* Pods */,
-				3C5EB318BAA74EAAA8FDA3C6 /* Frameworks */,
+				FE4DA4F524EB0BF900FC6810 /* CalciLibrary */,
+				FE4DA50224EB0C1B00FC6810 /* Resources */,
+				FE4DA4F424EB0BF900FC6810 /* Products */,
+				A2595FD494E24E6EB8202D65 /* Pods */,
+				7FA1441890D34AB3B3A0E16A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		FE91B08324E9A8B5009B940D /* Products */ = {
+		FE4DA4F424EB0BF900FC6810 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE91B08224E9A8B5009B940D /* CalciLibrary.framework */,
-				FE91B08B24E9A8B5009B940D /* CalciLibraryTests.xctest */,
-				FE67BFFA24EB0919003B15FE /* Resources.bundle */,
+				FE4DA4F324EB0BF900FC6810 /* libCalciLibrary.a */,
+				FE4DA50124EB0C1B00FC6810 /* Resources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE91B08424E9A8B5009B940D /* CalciLibrary */ = {
+		FE4DA4F524EB0BF900FC6810 /* CalciLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				FE91B08524E9A8B5009B940D /* CalciLibrary.h */,
-				FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */,
-				FE91B0AA24E9A8E8009B940D /* BitCoin.swift */,
-				FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */,
-				FE91B0AD24E9A8EC009B940D /* HttpClient.swift */,
-				FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */,
-				FE91B0B024E9A8F3009B940D /* BitCoinService.swift */,
-				FE91B0B124E9A8F3009B940D /* Calculator.swift */,
-				FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */,
-				FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */,
-				FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */,
-				FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */,
-				FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */,
-				FE91B08624E9A8B5009B940D /* Info.plist */,
-				FE0FE22824EABEF200CD7D04 /* Event.swift */,
-				FE5A4E6224EAAB85006D7A33 /* EventType.swift */,
-				FE0FE22624EABBEA00CD7D04 /* Analysable.swift */,
-				FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */,
+				FE4DA50D24EB0CB000FC6810 /* Analysable.swift */,
+				FE4DA51524EB0CB000FC6810 /* BitCoin.swift */,
+				FE4DA50C24EB0CB000FC6810 /* BitCoinManager.swift */,
+				FE4DA51624EB0CB000FC6810 /* BitCoinService.swift */,
+				FE4DA51724EB0CB000FC6810 /* CalciLibrary.swift */,
+				FE4DA50F24EB0CB000FC6810 /* Calculator.swift */,
+				FE4DA51824EB0CB000FC6810 /* Event.swift */,
+				FE4DA50E24EB0CB000FC6810 /* EventType.swift */,
+				FE4DA51024EB0CB000FC6810 /* FirebaseAnalytics.swift */,
+				FE4DA50A24EB0CB000FC6810 /* FirebaseManager.swift */,
+				FE4DA51324EB0CB000FC6810 /* HttpClient.swift */,
+				FE4DA51124EB0CB000FC6810 /* RemoteConfigService.swift */,
+				FE4DA51424EB0CB000FC6810 /* ReverseGeocodeManager.swift */,
+				FE4DA50B24EB0CB000FC6810 /* ReverseGeocodeService.swift */,
+				FE4DA51224EB0CB000FC6810 /* URLSessionProtocol.swift */,
 			);
 			path = CalciLibrary;
 			sourceTree = "<group>";
 		};
-		FE91B08F24E9A8B5009B940D /* CalciLibraryTests */ = {
+		FE4DA50224EB0C1B00FC6810 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */,
-				FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */,
-				FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */,
-				FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */,
-				FE91B09224E9A8B5009B940D /* Info.plist */,
+				FE4DA50324EB0C1B00FC6810 /* Info.plist */,
+				FE4DA50924EB0CB000FC6810 /* GoogleService-Info.plist */,
 			);
-			path = CalciLibraryTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		FE91B07D24E9A8B5009B940D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE91B09324E9A8B5009B940D /* CalciLibrary.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		FE67BFF924EB0919003B15FE /* Resources */ = {
+		FE4DA4F224EB0BF900FC6810 /* CalciLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE67BFFF24EB0919003B15FE /* Build configuration list for PBXNativeTarget "Resources" */;
+			buildConfigurationList = FE4DA4FA24EB0BF900FC6810 /* Build configuration list for PBXNativeTarget "CalciLibrary" */;
 			buildPhases = (
-				FE67BFF624EB0919003B15FE /* Sources */,
-				FE67BFF724EB0919003B15FE /* Frameworks */,
-				FE67BFF824EB0919003B15FE /* Resources */,
+				DD5F616046F4CA21A2B03E08 /* [CP] Check Pods Manifest.lock */,
+				FE4DA4EF24EB0BF900FC6810 /* Sources */,
+				FE4DA4F024EB0BF900FC6810 /* Frameworks */,
+				FE4DA4F124EB0BF900FC6810 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4DA50824EB0C6200FC6810 /* PBXTargetDependency */,
+			);
+			name = CalciLibrary;
+			productName = CalciLibrary;
+			productReference = FE4DA4F324EB0BF900FC6810 /* libCalciLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE4DA50024EB0C1B00FC6810 /* Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4DA50424EB0C1B00FC6810 /* Build configuration list for PBXNativeTarget "Resources" */;
+			buildPhases = (
+				51F4DE979FA8546412C41257 /* [CP] Check Pods Manifest.lock */,
+				FE4DA4FD24EB0C1B00FC6810 /* Sources */,
+				FE4DA4FE24EB0C1B00FC6810 /* Frameworks */,
+				FE4DA4FF24EB0C1B00FC6810 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -230,72 +205,29 @@
 			);
 			name = Resources;
 			productName = Resources;
-			productReference = FE67BFFA24EB0919003B15FE /* Resources.bundle */;
+			productReference = FE4DA50124EB0C1B00FC6810 /* Resources.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		FE91B08124E9A8B5009B940D /* CalciLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE91B09624E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibrary" */;
-			buildPhases = (
-				E241959A8D198B1B8742DF41 /* [CP] Check Pods Manifest.lock */,
-				FE91B07D24E9A8B5009B940D /* Headers */,
-				FE91B07E24E9A8B5009B940D /* Sources */,
-				FE91B07F24E9A8B5009B940D /* Frameworks */,
-				FE91B08024E9A8B5009B940D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE67C00124EB0958003B15FE /* PBXTargetDependency */,
-			);
-			name = CalciLibrary;
-			productName = CalciLibrary;
-			productReference = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FE91B08A24E9A8B5009B940D /* CalciLibraryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE91B09924E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibraryTests" */;
-			buildPhases = (
-				E8D49F0A2ECB4839C6627D68 /* [CP] Check Pods Manifest.lock */,
-				FE91B08724E9A8B5009B940D /* Sources */,
-				FE91B08824E9A8B5009B940D /* Frameworks */,
-				FE91B08924E9A8B5009B940D /* Resources */,
-				FE41CF6E64715DD1514A8F86 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE91B08E24E9A8B5009B940D /* PBXTargetDependency */,
-			);
-			name = CalciLibraryTests;
-			productName = CalciLibraryTests;
-			productReference = FE91B08B24E9A8B5009B940D /* CalciLibraryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE91B07924E9A8B5009B940D /* Project object */ = {
+		FE4DA4EB24EB0BF900FC6810 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = Akilan;
 				TargetAttributes = {
-					FE67BFF924EB0919003B15FE = {
-						CreatedOnToolsVersion = 11.6;
-					};
-					FE91B08124E9A8B5009B940D = {
+					FE4DA4F224EB0BF900FC6810 = {
 						CreatedOnToolsVersion = 11.6;
 						LastSwiftMigration = 1160;
 					};
-					FE91B08A24E9A8B5009B940D = {
+					FE4DA50024EB0C1B00FC6810 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = FE91B07C24E9A8B5009B940D /* Build configuration list for PBXProject "CalciLibrary" */;
+			buildConfigurationList = FE4DA4EE24EB0BF900FC6810 /* Build configuration list for PBXProject "CalciLibrary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -303,36 +235,19 @@
 				en,
 				Base,
 			);
-			mainGroup = FE91B07824E9A8B5009B940D;
-			productRefGroup = FE91B08324E9A8B5009B940D /* Products */;
+			mainGroup = FE4DA4EA24EB0BF900FC6810;
+			productRefGroup = FE4DA4F424EB0BF900FC6810 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE91B08124E9A8B5009B940D /* CalciLibrary */,
-				FE91B08A24E9A8B5009B940D /* CalciLibraryTests */,
-				FE67BFF924EB0919003B15FE /* Resources */,
+				FE4DA4F224EB0BF900FC6810 /* CalciLibrary */,
+				FE4DA50024EB0C1B00FC6810 /* Resources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE67BFF824EB0919003B15FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE67C00224EB0978003B15FE /* GoogleService-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE91B08024E9A8B5009B940D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE91B08924E9A8B5009B940D /* Resources */ = {
+		FE4DA4FF24EB0C1B00FC6810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -342,7 +257,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E241959A8D198B1B8742DF41 /* [CP] Check Pods Manifest.lock */ = {
+		51F4DE979FA8546412C41257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resources-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5F616046F4CA21A2B03E08 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,137 +301,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E8D49F0A2ECB4839C6627D68 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CalciLibrary-CalciLibraryTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE41CF6E64715DD1514A8F86 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE67BFF624EB0919003B15FE /* Sources */ = {
+		FE4DA4EF24EB0BF900FC6810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4DA52424EB0CB000FC6810 /* BitCoin.swift in Sources */,
+				FE4DA52224EB0CB000FC6810 /* HttpClient.swift in Sources */,
+				FE4DA52624EB0CB000FC6810 /* CalciLibrary.swift in Sources */,
+				FE4DA52124EB0CB000FC6810 /* URLSessionProtocol.swift in Sources */,
+				FE4DA52724EB0CB000FC6810 /* Event.swift in Sources */,
+				FE4DA51F24EB0CB000FC6810 /* FirebaseAnalytics.swift in Sources */,
+				FE4DA51924EB0CB000FC6810 /* FirebaseManager.swift in Sources */,
+				FE4DA51D24EB0CB000FC6810 /* EventType.swift in Sources */,
+				FE4DA52324EB0CB000FC6810 /* ReverseGeocodeManager.swift in Sources */,
+				FE4DA51A24EB0CB000FC6810 /* ReverseGeocodeService.swift in Sources */,
+				FE4DA51B24EB0CB000FC6810 /* BitCoinManager.swift in Sources */,
+				FE4DA52524EB0CB000FC6810 /* BitCoinService.swift in Sources */,
+				FE4DA51C24EB0CB000FC6810 /* Analysable.swift in Sources */,
+				FE4DA51E24EB0CB000FC6810 /* Calculator.swift in Sources */,
+				FE4DA52024EB0CB000FC6810 /* RemoteConfigService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE91B07E24E9A8B5009B940D /* Sources */ = {
+		FE4DA4FD24EB0C1B00FC6810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */,
-				FE91B0AE24E9A8EC009B940D /* URLSessionProtocol.swift in Sources */,
-				FE91B0AB24E9A8E8009B940D /* BitCoin.swift in Sources */,
-				FE91B0BC24E9A8FB009B940D /* FirebaseManager.swift in Sources */,
-				FE0FE22924EABEF200CD7D04 /* Event.swift in Sources */,
-				FE91B0BB24E9A8FB009B940D /* BitCoinManager.swift in Sources */,
-				FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */,
-				FE91B0B624E9A8F3009B940D /* ReverseGeocodeService.swift in Sources */,
-				FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */,
-				FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */,
-				FE91B0AF24E9A8EC009B940D /* HttpClient.swift in Sources */,
-				FE5A4E6724EAAC02006D7A33 /* FirebaseAnalytics.swift in Sources */,
-				FE91B0B424E9A8F3009B940D /* BitCoinService.swift in Sources */,
-				FE91B0B524E9A8F3009B940D /* Calculator.swift in Sources */,
-				FE91B0B724E9A8F3009B940D /* RemoteConfigService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE91B08724E9A8B5009B940D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE91B09124E9A8B5009B940D /* CalciLibraryTests.swift in Sources */,
-				FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */,
-				FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */,
-				FE0FE22F24EAD3C600CD7D04 /* MockReverseGeocodeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE67C00124EB0958003B15FE /* PBXTargetDependency */ = {
+		FE4DA50824EB0C6200FC6810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE67BFF924EB0919003B15FE /* Resources */;
-			targetProxy = FE67C00024EB0958003B15FE /* PBXContainerItemProxy */;
-		};
-		FE91B08E24E9A8B5009B940D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE91B08124E9A8B5009B940D /* CalciLibrary */;
-			targetProxy = FE91B08D24E9A8B5009B940D /* PBXContainerItemProxy */;
+			target = FE4DA50024EB0C1B00FC6810 /* Resources */;
+			targetProxy = FE4DA50724EB0C6200FC6810 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		FE67BFFD24EB0919003B15FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Resources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.Resources;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		FE67BFFE24EB0919003B15FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Resources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.Resources;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FE91B09424E9A8B5009B940D /* Debug */ = {
+		FE4DA4F824EB0BF900FC6810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -527,7 +377,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -552,12 +401,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FE91B09524E9A8B5009B940D /* Release */ = {
+		FE4DA4F924EB0BF900FC6810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -590,7 +437,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -609,30 +455,22 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FE91B09724E9A8B5009B940D /* Debug */ = {
+		FE4DA4FB24EB0BF900FC6810 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 531358C6F1778C03179ACBE1 /* Pods-CalciLibrary.debug.xcconfig */;
+			baseConfigurationReference = EF5F2F9CAAC5FF0A1D9E12E8 /* Pods-CalciLibrary.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CalciLibrary/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.CalciLibrary;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -640,109 +478,90 @@
 			};
 			name = Debug;
 		};
-		FE91B09824E9A8B5009B940D /* Release */ = {
+		FE4DA4FC24EB0BF900FC6810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6BBAE721B80FCE7E238057 /* Pods-CalciLibrary.release.xcconfig */;
+			baseConfigurationReference = 7C5B01D70518EC1B731DE90F /* Pods-CalciLibrary.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CalciLibrary/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.CalciLibrary;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		FE91B09A24E9A8B5009B940D /* Debug */ = {
+		FE4DA50524EB0C1B00FC6810 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A9B14AD34DBC3B351A2F669 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */;
+			baseConfigurationReference = 32D2590276F8441A94CA4A16 /* Pods-Resources.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CalciLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.CalciLibraryTests;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.Resources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		FE91B09B24E9A8B5009B940D /* Release */ = {
+		FE4DA50624EB0C1B00FC6810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78A54F4CA688C89D4C982692 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */;
+			baseConfigurationReference = 5696013DF09D8619060ACD42 /* Pods-Resources.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CalciLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.CalciLibraryTests;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = leoVegas.Resources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE67BFFF24EB0919003B15FE /* Build configuration list for PBXNativeTarget "Resources" */ = {
+		FE4DA4EE24EB0BF900FC6810 /* Build configuration list for PBXProject "CalciLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE67BFFD24EB0919003B15FE /* Debug */,
-				FE67BFFE24EB0919003B15FE /* Release */,
+				FE4DA4F824EB0BF900FC6810 /* Debug */,
+				FE4DA4F924EB0BF900FC6810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE91B07C24E9A8B5009B940D /* Build configuration list for PBXProject "CalciLibrary" */ = {
+		FE4DA4FA24EB0BF900FC6810 /* Build configuration list for PBXNativeTarget "CalciLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE91B09424E9A8B5009B940D /* Debug */,
-				FE91B09524E9A8B5009B940D /* Release */,
+				FE4DA4FB24EB0BF900FC6810 /* Debug */,
+				FE4DA4FC24EB0BF900FC6810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE91B09624E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibrary" */ = {
+		FE4DA50424EB0C1B00FC6810 /* Build configuration list for PBXNativeTarget "Resources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE91B09724E9A8B5009B940D /* Debug */,
-				FE91B09824E9A8B5009B940D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE91B09924E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE91B09A24E9A8B5009B940D /* Debug */,
-				FE91B09B24E9A8B5009B940D /* Release */,
+				FE4DA50524EB0C1B00FC6810 /* Debug */,
+				FE4DA50624EB0C1B00FC6810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE91B07924E9A8B5009B940D /* Project object */;
+	rootObject = FE4DA4EB24EB0BF900FC6810 /* Project object */;
 }
