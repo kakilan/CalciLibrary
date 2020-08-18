@@ -18,9 +18,11 @@ class FirebaseManager {
         
         // configure FirebaseApp
         let bundle = Bundle(for: type(of: self))
-        let filePath = bundle.path(forResource: "GoogleService-Info", ofType: "plist")!
-        let options = FirebaseOptions(contentsOfFile: filePath)
-        FirebaseApp.configure(options: options!)
+        if
+            let filePath = bundle.path(forResource: "GoogleService-Info", ofType: "plist"),
+            let options = FirebaseOptions(contentsOfFile: filePath) {
+            FirebaseApp.configure(options: options)
+        }
         
         // configure RemoteConfig
         let settings = RemoteConfigSettings()
