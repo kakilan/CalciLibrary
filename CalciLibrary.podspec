@@ -21,10 +21,7 @@ Pod::Spec.new do |spec|
   spec.source_files     = "CalciLibrary/**/*.swift"
   spec.requires_arc     = true
   spec.static_framework = true
-  spec.resources        = [
-                            "CalciLibrary/GoogleService-Info.plist",
-                            "CalciLibrary/*.lproj"
-                            ]
+  spec.resources        = "CalciLibrary/GoogleService-Info.plist","CalciLibrary/*.lproj"
   spec.dependency "Firebase", "~> 6.30.0"
   spec.dependency "Firebase/Analytics", "~> 6.30.0"
   spec.dependency "Firebase/Crashlytics", "~> 6.30.0"
