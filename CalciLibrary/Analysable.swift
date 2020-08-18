@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol Analysable {
-    func logEvent(event: Event)
+    static func logEvent(event: Event)
 }

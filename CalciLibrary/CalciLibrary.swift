@@ -9,9 +9,7 @@
 import Foundation
 
 open class CalciLibrary {
-    
-    public var analytics: Analysable = CalciAnalytics()
-    
+        
     private var remoteConfig: RemoteConfigService
     private var bitCoinService: BitCoinService
     private var reverseGeocodeService: ReverseGeocodeService
@@ -34,7 +32,7 @@ open class CalciLibrary {
 extension CalciLibrary: Calculator {
     
     public func add(operand1: String, and operand2: String) -> String {
-        analytics.logEvent(event: EventType.ADDITION)
+        CalciAnalytics.logEvent(event: EventType.ADDITION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2) else {
             return "Invalid Operation"
         }
@@ -44,7 +42,7 @@ extension CalciLibrary: Calculator {
     }
     
     public func subtract(operand1: String, and operand2: String) -> String {
-        analytics.logEvent(event: EventType.SUBTRACTION)
+        CalciAnalytics.logEvent(event: EventType.SUBTRACTION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2) else {
             return "Invalid Operation"
         }
@@ -54,7 +52,7 @@ extension CalciLibrary: Calculator {
     }
     
     public func multiply(operand1: String, with operand2: String) -> String {
-        analytics.logEvent(event: EventType.MULTIPLICATION)
+        CalciAnalytics.logEvent(event: EventType.MULTIPLICATION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2) else {
             return "Invalid Operation"
         }
@@ -64,7 +62,7 @@ extension CalciLibrary: Calculator {
     }
     
     public func divide(operand1: String, by operand2: String) -> String {
-        analytics.logEvent(event: EventType.DIVISION)
+        CalciAnalytics.logEvent(event: EventType.DIVISION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2), opr2 != 0 else {
             return "Invalid Operation"
         }
@@ -74,7 +72,7 @@ extension CalciLibrary: Calculator {
     }
     
     public func sineOf(degrees: String) -> String {
-        analytics.logEvent(event: EventType.SINE)
+        CalciAnalytics.logEvent(event: EventType.SINE)
         guard let degrees = Double(degrees) else {
             return "Invalid Operation"
         }
@@ -82,7 +80,7 @@ extension CalciLibrary: Calculator {
     }
     
     public func cosineOf(degrees: String) -> String {
-        analytics.logEvent(event: EventType.COSINE)
+        CalciAnalytics.logEvent(event: EventType.COSINE)
         guard let degrees = Double(degrees) else {
             return "Invalid Operation"
         }
@@ -90,7 +88,7 @@ extension CalciLibrary: Calculator {
     }
     
     public func bitValueOf(coin: String, completion: @escaping(_ value: String) -> Void) {
-        analytics.logEvent(event: EventType.BITCOIN)
+        CalciAnalytics.logEvent(event: EventType.BITCOIN)
         guard let _ = Double(coin) else {
             completion("Invalid Operation")
             return
@@ -105,7 +103,7 @@ extension CalciLibrary: Calculator {
     }
     
     public func addressOf(latitude: String, longitude: String, completion: @escaping(_ result: String) -> Void) {
-        analytics.logEvent(event: EventType.MAP)
+        CalciAnalytics.logEvent(event: EventType.MAP)
         guard let lat = Double(latitude), let long = Double(longitude) else {
             completion("Invalid Operation")
             return
