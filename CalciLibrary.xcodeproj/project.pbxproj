@@ -16,7 +16,7 @@
 		FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */; };
 		FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
 		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
-		FE5A4E6724EAAC02006D7A33 /* CalciAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* CalciAnalytics.swift */; };
+		FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */; };
 		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
 		FE91B09124E9A8B5009B940D /* CalciLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */; };
 		FE91B09324E9A8B5009B940D /* CalciLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91B08524E9A8B5009B940D /* CalciLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,7 +57,7 @@
 		FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBitCoinService.swift; sourceTree = "<group>"; };
 		FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5A4E6224EAAB85006D7A33 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
-		FE5A4E6624EAAC02006D7A33 /* CalciAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalciAnalytics.swift; sourceTree = "<group>"; };
+		FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalciLibrary+CalciAnalytics.swift"; sourceTree = "<group>"; };
 		FE91B08224E9A8B5009B940D /* CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE91B08524E9A8B5009B940D /* CalciLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalciLibrary.h; sourceTree = "<group>"; };
 		FE91B08624E9A8B5009B940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,6 +118,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FE4A03D824EB5E91008D0AAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE91B0AA24E9A8E8009B940D /* BitCoin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE4A03D924EB5E9A008D0AAF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FE91B0AD24E9A8EC009B940D /* HttpClient.swift */,
+				FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE4A03DA24EB5EA3008D0AAF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FE0FE22824EABEF200CD7D04 /* Event.swift */,
+				FE0FE22624EABBEA00CD7D04 /* Analysable.swift */,
+				FE91B0B024E9A8F3009B940D /* BitCoinService.swift */,
+				FE91B0B124E9A8F3009B940D /* Calculator.swift */,
+				FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */,
+				FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FE4A03DB24EB5EAD008D0AAF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */,
+				FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */,
+				FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FE4A03DC24EB5F85008D0AAF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				FE5A4E6224EAAB85006D7A33 /* EventType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		FE4A03DD24EB5F94008D0AAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		FE91B07824E9A8B5009B940D = {
 			isa = PBXGroup;
 			children = (
@@ -141,24 +197,16 @@
 		FE91B08424E9A8B5009B940D /* CalciLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				FE4A03DD24EB5F94008D0AAF /* Extension */,
+				FE4A03DC24EB5F85008D0AAF /* Enum */,
+				FE4A03D824EB5E91008D0AAF /* Model */,
+				FE4A03D924EB5E9A008D0AAF /* Network */,
+				FE4A03DA24EB5EA3008D0AAF /* Protocols */,
+				FE4A03DB24EB5EAD008D0AAF /* Services */,
 				FE91B08524E9A8B5009B940D /* CalciLibrary.h */,
 				FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */,
-				FE91B0AA24E9A8E8009B940D /* BitCoin.swift */,
 				FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */,
-				FE91B0AD24E9A8EC009B940D /* HttpClient.swift */,
-				FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */,
-				FE91B0B024E9A8F3009B940D /* BitCoinService.swift */,
-				FE91B0B124E9A8F3009B940D /* Calculator.swift */,
-				FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */,
-				FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */,
-				FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */,
-				FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */,
-				FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */,
 				FE91B08624E9A8B5009B940D /* Info.plist */,
-				FE0FE22824EABEF200CD7D04 /* Event.swift */,
-				FE5A4E6224EAAB85006D7A33 /* EventType.swift */,
-				FE0FE22624EABBEA00CD7D04 /* Analysable.swift */,
-				FE5A4E6624EAAC02006D7A33 /* CalciAnalytics.swift */,
 			);
 			path = CalciLibrary;
 			sourceTree = "<group>";
@@ -364,7 +412,7 @@
 				FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */,
 				FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */,
 				FE91B0AF24E9A8EC009B940D /* HttpClient.swift in Sources */,
-				FE5A4E6724EAAC02006D7A33 /* CalciAnalytics.swift in Sources */,
+				FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */,
 				FE91B0B424E9A8F3009B940D /* BitCoinService.swift in Sources */,
 				FE91B0B524E9A8F3009B940D /* Calculator.swift in Sources */,
 				FE91B0B724E9A8F3009B940D /* RemoteConfigService.swift in Sources */,
