@@ -260,6 +260,7 @@
 				FE91B07E24E9A8B5009B940D /* Sources */,
 				FE91B07F24E9A8B5009B940D /* Frameworks */,
 				FE91B08024E9A8B5009B940D /* Resources */,
+				FE4A03ED24EB66FD008D0AAF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -407,6 +408,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		FE4A03ED24EB66FD008D0AAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\" -name \"*.dSYM\" | xargs -I \\{\\} $PODS_ROOT/FirebaseCrashlytics/upload-symbols -gsp ${SRCROOT}/GoogleService-Info.plist -p ios \\{\\}\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

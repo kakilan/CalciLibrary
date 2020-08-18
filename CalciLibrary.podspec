@@ -24,6 +24,7 @@ Pod::Spec.new do |spec|
   spec.resources        = "CalciLibrary/GoogleService-Info.plist"
   spec.dependency "Firebase", "~> 6.30.0"
   spec.dependency "Firebase/Analytics", "~> 6.30.0"
+  spec.dependency "Firebase/Crashlytics", "~> 6.30.0"
   spec.dependency "Firebase/RemoteConfig", "~> 6.30.0"
 
 end
