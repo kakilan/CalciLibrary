@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum EventType: Event {
+enum EventType {
     
     case ADDITION
     case SUBTRACTION
@@ -18,7 +18,9 @@ enum EventType: Event {
     case COSINE
     case BITCOIN
     case MAP
-    
+}
+
+extension EventType: Event {
     var name: String {
         get {
             switch self {
@@ -33,5 +35,4 @@ enum EventType: Event {
             }
         }
     }
-    
 }

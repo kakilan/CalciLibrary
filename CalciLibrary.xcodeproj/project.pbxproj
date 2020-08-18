@@ -45,6 +45,9 @@
 		FE91B0BC24E9A8FB009B940D /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */; };
 		FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */; };
 		FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */; };
+		FED1105124EC2F7F00CC5212 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED1105324EC2F7F00CC5212 /* Localizable.strings */; };
+		FED1105824EC323100CC5212 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1105724EC323100CC5212 /* LocalizedString.swift */; };
+		FED1105A24EC329400CC5212 /* Localisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1105924EC329400CC5212 /* Localisable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,12 @@
 		FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeManager.swift; sourceTree = "<group>"; };
 		FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinManager.swift; sourceTree = "<group>"; };
 		FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalciLibrary.swift; sourceTree = "<group>"; };
+		FED1105224EC2F7F00CC5212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FED1105424EC2FAE00CC5212 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FED1105524EC2FB900CC5212 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FED1105624EC2FC200CC5212 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FED1105724EC323100CC5212 /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		FED1105924EC329400CC5212 /* Localisable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localisable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +167,7 @@
 				FE91B0B124E9A8F3009B940D /* Calculator.swift */,
 				FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */,
 				FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */,
+				FED1105924EC329400CC5212 /* Localisable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -176,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				FE5A4E6224EAAB85006D7A33 /* EventType.swift */,
+				FED1105724EC323100CC5212 /* LocalizedString.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -221,6 +232,7 @@
 				FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */,
 				FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */,
 				FE91B08624E9A8B5009B940D /* Info.plist */,
+				FED1105324EC2F7F00CC5212 /* Localizable.strings */,
 			);
 			path = CalciLibrary;
 			sourceTree = "<group>";
@@ -317,6 +329,9 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				sv,
+				fr,
 			);
 			mainGroup = FE91B07824E9A8B5009B940D;
 			productRefGroup = FE91B08324E9A8B5009B940D /* Products */;
@@ -335,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */,
+				FED1105124EC2F7F00CC5212 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,10 +455,12 @@
 				FE91B0BC24E9A8FB009B940D /* FirebaseManager.swift in Sources */,
 				FE0FE22924EABEF200CD7D04 /* Event.swift in Sources */,
 				FE91B0BB24E9A8FB009B940D /* BitCoinManager.swift in Sources */,
+				FED1105A24EC329400CC5212 /* Localisable.swift in Sources */,
 				FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */,
 				FE91B0B624E9A8F3009B940D /* ReverseGeocodeService.swift in Sources */,
 				FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */,
 				FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */,
+				FED1105824EC323100CC5212 /* LocalizedString.swift in Sources */,
 				FE91B0AF24E9A8EC009B940D /* HttpClient.swift in Sources */,
 				FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */,
 				FE91B0B424E9A8F3009B940D /* BitCoinService.swift in Sources */,
@@ -486,11 +504,26 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		FED1105324EC2F7F00CC5212 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED1105224EC2F7F00CC5212 /* en */,
+				FED1105424EC2FAE00CC5212 /* es */,
+				FED1105524EC2FB900CC5212 /* sv */,
+				FED1105624EC2FC200CC5212 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		FE91B09424E9A8B5009B940D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -554,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

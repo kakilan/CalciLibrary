@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CalciLibrary
+
+  Created by Akilan on 18/08/20.
+  Copyright © 2020 Akilan. All rights reserved.
+*/
+
+"noValidAddress"            = "Ingen giltig adress";
+"invalidOperation"          = "Ogiltig operation";
+"informationUnavailable"    = "Informationen är inte tillgänglig";

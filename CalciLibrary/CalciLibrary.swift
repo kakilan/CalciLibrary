@@ -34,7 +34,7 @@ extension CalciLibrary: Calculator {
     public func add(operand1: String, and operand2: String) -> String {
         CalciAnalytics.logEvent(event: EventType.ADDITION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2) else {
-            return "Invalid Operation"
+            return LocalizedString.invalidOperation.localised
         }
         let result = opr1 + opr2
         
@@ -44,7 +44,7 @@ extension CalciLibrary: Calculator {
     public func subtract(operand1: String, and operand2: String) -> String {
         CalciAnalytics.logEvent(event: EventType.SUBTRACTION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2) else {
-            return "Invalid Operation"
+            return LocalizedString.invalidOperation.localised
         }
         let result = opr1 - opr2
         
@@ -54,7 +54,7 @@ extension CalciLibrary: Calculator {
     public func multiply(operand1: String, with operand2: String) -> String {
         CalciAnalytics.logEvent(event: EventType.MULTIPLICATION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2) else {
-            return "Invalid Operation"
+            return LocalizedString.invalidOperation.localised
         }
         let result = opr1 * opr2
         
@@ -64,7 +64,7 @@ extension CalciLibrary: Calculator {
     public func divide(operand1: String, by operand2: String) -> String {
         CalciAnalytics.logEvent(event: EventType.DIVISION)
         guard let opr1 = Double(operand1), let opr2 = Double(operand2), opr2 != 0 else {
-            return "Invalid Operation"
+            return LocalizedString.invalidOperation.localised
         }
         let result = opr1 / opr2
         
@@ -74,7 +74,7 @@ extension CalciLibrary: Calculator {
     public func sineOf(degrees: String) -> String {
         CalciAnalytics.logEvent(event: EventType.SINE)
         guard let degrees = Double(degrees) else {
-            return "Invalid Operation"
+            return LocalizedString.invalidOperation.localised
         }
         return String(format: "%g", __sinpi(degrees/180.0))
     }
@@ -82,7 +82,7 @@ extension CalciLibrary: Calculator {
     public func cosineOf(degrees: String) -> String {
         CalciAnalytics.logEvent(event: EventType.COSINE)
         guard let degrees = Double(degrees) else {
-            return "Invalid Operation"
+            return LocalizedString.invalidOperation.localised
         }
         return String(format: "%g", __cospi(degrees/180.0))
     }
@@ -90,14 +90,14 @@ extension CalciLibrary: Calculator {
     public func bitValueOf(coin: String, completion: @escaping(_ value: String) -> Void) {
         CalciAnalytics.logEvent(event: EventType.BITCOIN)
         guard let _ = Double(coin) else {
-            completion("Invalid Operation")
+            completion(LocalizedString.invalidOperation.localised)
             return
         }
         bitCoinService.getBitCoinValue { [unowned self] (value) in
             if let bitCoinValue = value {
                 completion(self.multiply(operand1: coin, with: String(format: "%g", bitCoinValue)))
             } else {
-                completion("Information unavailable")
+                completion(LocalizedString.informationUnavailable.localised)
             }
         }
     }
@@ -105,16 +105,16 @@ extension CalciLibrary: Calculator {
     public func addressOf(latitude: String, longitude: String, completion: @escaping(_ result: String) -> Void) {
         CalciAnalytics.logEvent(event: EventType.MAP)
         guard let lat = Double(latitude), let long = Double(longitude) else {
-            completion("Invalid Operation")
+            completion(LocalizedString.invalidOperation.localised)
             return
         }
         reverseGeocodeService.reverseGeocode(latitude: lat, longitude: long) { (result, error) in
             if let _ = error {
-                completion("Information unavailable")
+                completion(LocalizedString.informationUnavailable.localised)
             } else if let address = result {
                 completion(address)
             } else {
-                completion("No valid address")
+                completion(LocalizedString.noValidAddress.localised)
             }
         }
     }
