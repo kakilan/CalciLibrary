@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6963D330E0A5428B9D9F7A33 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB478E52649377A3B5D43AC2 /* Pods_CalciLibrary_CalciLibraryTests.framework */; };
-		9D75F31A67A71EFE66E19C3B /* Pods_CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8C1233D48E54292D66D56E /* Pods_CalciLibrary.framework */; };
-		FE0FE22724EABBEA00CD7D04 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22624EABBEA00CD7D04 /* Analytics.swift */; };
+		6B65205146F2294439F0B418 /* Pods_CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909D9C13968909F79790B3 /* Pods_CalciLibrary.framework */; };
+		96454777DC3724788C7F61C7 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */; };
+		FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22624EABBEA00CD7D04 /* Analysable.swift */; };
 		FE0FE22924EABEF200CD7D04 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22824EABEF200CD7D04 /* Event.swift */; };
+		FE0FE22F24EAD3C600CD7D04 /* MockReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */; };
+		FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */; };
+		FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */; };
+		FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
+		FE4A03DE24EB606B008D0AAF /* CalciLibrary+CalciAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */; };
+		FE4A03DF24EB606E008D0AAF /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
+		FE4A03E024EB6082008D0AAF /* BitCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0AA24E9A8E8009B940D /* BitCoin.swift */; };
+		FE4A03E124EB6082008D0AAF /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0AD24E9A8EC009B940D /* HttpClient.swift */; };
+		FE4A03E224EB6082008D0AAF /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */; };
+		FE4A03E324EB6082008D0AAF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22824EABEF200CD7D04 /* Event.swift */; };
+		FE4A03E424EB6082008D0AAF /* Analysable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22624EABBEA00CD7D04 /* Analysable.swift */; };
+		FE4A03E524EB6082008D0AAF /* BitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B024E9A8F3009B940D /* BitCoinService.swift */; };
+		FE4A03E624EB6082008D0AAF /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B124E9A8F3009B940D /* Calculator.swift */; };
+		FE4A03E724EB6082008D0AAF /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */; };
+		FE4A03E824EB6082008D0AAF /* ReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */; };
+		FE4A03E924EB6082008D0AAF /* BitCoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */; };
+		FE4A03EA24EB6082008D0AAF /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */; };
+		FE4A03EB24EB6082008D0AAF /* ReverseGeocodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */; };
 		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
-		FE5A4E6724EAAC02006D7A33 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */; };
+		FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */; };
 		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
 		FE91B09124E9A8B5009B940D /* CalciLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */; };
 		FE91B09324E9A8B5009B940D /* CalciLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91B08524E9A8B5009B940D /* CalciLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,12 +44,7 @@
 		FE91B0BB24E9A8FB009B940D /* BitCoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */; };
 		FE91B0BC24E9A8FB009B940D /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */; };
 		FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */; };
-		FE91B0C124E9A916009B940D /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0BE24E9A916009B940D /* MockBitCoinService.swift */; };
-		FE91B0C224E9A916009B940D /* MockReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0BF24E9A916009B940D /* MockReverseGeocodeService.swift */; };
-		FE91B0C324E9A916009B940D /* MockRemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C024E9A916009B940D /* MockRemoteConfigService.swift */; };
 		FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */; };
-		FE91B0C824E9A9EC009B940D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */; };
-		FE91B0C924E9A9EC009B940D /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE91B0C624E9A9EC009B940D /* RemoteConfigDefaults.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +58,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05891435427876A564B3E799 /* Pods-CalciLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.debug.xcconfig"; sourceTree = "<group>"; };
-		38D1FC620EEF39D8CEDF3761 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
-		5DC150A185A16B609AD52F19 /* Pods-CalciLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.release.xcconfig"; sourceTree = "<group>"; };
-		6C8C1233D48E54292D66D56E /* Pods_CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB478E52649377A3B5D43AC2 /* Pods_CalciLibrary_CalciLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary_CalciLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F469A6F257467B6BED6010F7 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE0FE22624EABBEA00CD7D04 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		1A9B14AD34DBC3B351A2F669 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20909D9C13968909F79790B3 /* Pods_CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531358C6F1778C03179ACBE1 /* Pods-CalciLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.debug.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary_CalciLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A54F4CA688C89D4C982692 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA6BBAE721B80FCE7E238057 /* Pods-CalciLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		FE0FE22624EABBEA00CD7D04 /* Analysable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analysable.swift; sourceTree = "<group>"; };
 		FE0FE22824EABEF200CD7D04 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReverseGeocodeService.swift; sourceTree = "<group>"; };
+		FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRemoteConfigService.swift; sourceTree = "<group>"; };
+		FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBitCoinService.swift; sourceTree = "<group>"; };
+		FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5A4E6224EAAB85006D7A33 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
-		FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalytics.swift; sourceTree = "<group>"; };
+		FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalciLibrary+CalciAnalytics.swift"; sourceTree = "<group>"; };
 		FE91B08224E9A8B5009B940D /* CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE91B08524E9A8B5009B940D /* CalciLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalciLibrary.h; sourceTree = "<group>"; };
 		FE91B08624E9A8B5009B940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,12 +88,7 @@
 		FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeManager.swift; sourceTree = "<group>"; };
 		FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinManager.swift; sourceTree = "<group>"; };
-		FE91B0BE24E9A916009B940D /* MockBitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockBitCoinService.swift; path = ../../CalciTests/Mocks/MockBitCoinService.swift; sourceTree = "<group>"; };
-		FE91B0BF24E9A916009B940D /* MockReverseGeocodeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockReverseGeocodeService.swift; path = ../../CalciTests/Mocks/MockReverseGeocodeService.swift; sourceTree = "<group>"; };
-		FE91B0C024E9A916009B940D /* MockRemoteConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockRemoteConfigService.swift; path = ../../CalciTests/Mocks/MockRemoteConfigService.swift; sourceTree = "<group>"; };
 		FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalciLibrary.swift; sourceTree = "<group>"; };
-		FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FE91B0C624E9A9EC009B940D /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D75F31A67A71EFE66E19C3B /* Pods_CalciLibrary.framework in Frameworks */,
+				6B65205146F2294439F0B418 /* Pods_CalciLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,31 +105,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */,
-				6963D330E0A5428B9D9F7A33 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */,
+				96454777DC3724788C7F61C7 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07261AF5DCDA36D5C64E71D3 /* Frameworks */ = {
+		177607F21C0FDAD72FB900FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C8C1233D48E54292D66D56E /* Pods_CalciLibrary.framework */,
-				AB478E52649377A3B5D43AC2 /* Pods_CalciLibrary_CalciLibraryTests.framework */,
+				531358C6F1778C03179ACBE1 /* Pods-CalciLibrary.debug.xcconfig */,
+				CA6BBAE721B80FCE7E238057 /* Pods-CalciLibrary.release.xcconfig */,
+				1A9B14AD34DBC3B351A2F669 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */,
+				78A54F4CA688C89D4C982692 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C5EB318BAA74EAAA8FDA3C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20909D9C13968909F79790B3 /* Pods_CalciLibrary.framework */,
+				55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		177607F21C0FDAD72FB900FF /* Pods */ = {
+		FE4A03D824EB5E91008D0AAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				05891435427876A564B3E799 /* Pods-CalciLibrary.debug.xcconfig */,
-				5DC150A185A16B609AD52F19 /* Pods-CalciLibrary.release.xcconfig */,
-				F469A6F257467B6BED6010F7 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */,
-				38D1FC620EEF39D8CEDF3761 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */,
+				FE91B0AA24E9A8E8009B940D /* BitCoin.swift */,
 			);
-			path = Pods;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE4A03D924EB5E9A008D0AAF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FE91B0AD24E9A8EC009B940D /* HttpClient.swift */,
+				FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE4A03DA24EB5EA3008D0AAF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FE0FE22824EABEF200CD7D04 /* Event.swift */,
+				FE0FE22624EABBEA00CD7D04 /* Analysable.swift */,
+				FE91B0B024E9A8F3009B940D /* BitCoinService.swift */,
+				FE91B0B124E9A8F3009B940D /* Calculator.swift */,
+				FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */,
+				FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FE4A03DB24EB5EAD008D0AAF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */,
+				FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */,
+				FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FE4A03DC24EB5F85008D0AAF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				FE5A4E6224EAAB85006D7A33 /* EventType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		FE4A03DD24EB5F94008D0AAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		FE91B07824E9A8B5009B940D = {
@@ -127,7 +195,7 @@
 				FE91B08F24E9A8B5009B940D /* CalciLibraryTests */,
 				FE91B08324E9A8B5009B940D /* Products */,
 				177607F21C0FDAD72FB900FF /* Pods */,
-				07261AF5DCDA36D5C64E71D3 /* Frameworks */,
+				3C5EB318BAA74EAAA8FDA3C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,25 +211,16 @@
 		FE91B08424E9A8B5009B940D /* CalciLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				FE4A03DD24EB5F94008D0AAF /* Extension */,
+				FE4A03DC24EB5F85008D0AAF /* Enum */,
+				FE4A03D824EB5E91008D0AAF /* Model */,
+				FE4A03D924EB5E9A008D0AAF /* Network */,
+				FE4A03DA24EB5EA3008D0AAF /* Protocols */,
+				FE4A03DB24EB5EAD008D0AAF /* Services */,
 				FE91B08524E9A8B5009B940D /* CalciLibrary.h */,
 				FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */,
-				FE91B0C524E9A9EC009B940D /* GoogleService-Info.plist */,
-				FE91B0C624E9A9EC009B940D /* RemoteConfigDefaults.plist */,
-				FE91B0AA24E9A8E8009B940D /* BitCoin.swift */,
-				FE91B0AD24E9A8EC009B940D /* HttpClient.swift */,
-				FE91B0AC24E9A8EC009B940D /* URLSessionProtocol.swift */,
-				FE91B0B024E9A8F3009B940D /* BitCoinService.swift */,
-				FE91B0B124E9A8F3009B940D /* Calculator.swift */,
-				FE91B0B324E9A8F3009B940D /* RemoteConfigService.swift */,
-				FE91B0B224E9A8F3009B940D /* ReverseGeocodeService.swift */,
-				FE91B0BA24E9A8FB009B940D /* BitCoinManager.swift */,
-				FE91B0B824E9A8FA009B940D /* FirebaseManager.swift */,
-				FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */,
+				FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */,
 				FE91B08624E9A8B5009B940D /* Info.plist */,
-				FE0FE22824EABEF200CD7D04 /* Event.swift */,
-				FE5A4E6224EAAB85006D7A33 /* EventType.swift */,
-				FE0FE22624EABBEA00CD7D04 /* Analytics.swift */,
-				FE5A4E6624EAAC02006D7A33 /* FirebaseAnalytics.swift */,
 			);
 			path = CalciLibrary;
 			sourceTree = "<group>";
@@ -169,9 +228,9 @@
 		FE91B08F24E9A8B5009B940D /* CalciLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
-				FE91B0BE24E9A916009B940D /* MockBitCoinService.swift */,
-				FE91B0C024E9A916009B940D /* MockRemoteConfigService.swift */,
-				FE91B0BF24E9A916009B940D /* MockReverseGeocodeService.swift */,
+				FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */,
+				FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */,
+				FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */,
 				FE91B09024E9A8B5009B940D /* CalciLibraryTests.swift */,
 				FE91B09224E9A8B5009B940D /* Info.plist */,
 			);
@@ -196,11 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE91B09624E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibrary" */;
 			buildPhases = (
-				8E1EB41C935B8BFDD04F4A12 /* [CP] Check Pods Manifest.lock */,
+				E241959A8D198B1B8742DF41 /* [CP] Check Pods Manifest.lock */,
 				FE91B07D24E9A8B5009B940D /* Headers */,
 				FE91B07E24E9A8B5009B940D /* Sources */,
 				FE91B07F24E9A8B5009B940D /* Frameworks */,
 				FE91B08024E9A8B5009B940D /* Resources */,
+				FE4A03ED24EB66FD008D0AAF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -215,11 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE91B09924E9A8B5009B940D /* Build configuration list for PBXNativeTarget "CalciLibraryTests" */;
 			buildPhases = (
-				410FEE17D95F004DA6E7AF28 /* [CP] Check Pods Manifest.lock */,
+				E8D49F0A2ECB4839C6627D68 /* [CP] Check Pods Manifest.lock */,
 				FE91B08724E9A8B5009B940D /* Sources */,
 				FE91B08824E9A8B5009B940D /* Frameworks */,
 				FE91B08924E9A8B5009B940D /* Resources */,
-				B277ABB32A5164993E624F75 /* [CP] Embed Pods Frameworks */,
+				FE41CF6E64715DD1514A8F86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,8 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE91B0C924E9A9EC009B940D /* RemoteConfigDefaults.plist in Resources */,
-				FE91B0C824E9A9EC009B940D /* GoogleService-Info.plist in Resources */,
+				FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,29 +348,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		410FEE17D95F004DA6E7AF28 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CalciLibrary-CalciLibraryTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E1EB41C935B8BFDD04F4A12 /* [CP] Check Pods Manifest.lock */ = {
+		E241959A8D198B1B8742DF41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +370,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B277ABB32A5164993E624F75 /* [CP] Embed Pods Frameworks */ = {
+		E8D49F0A2ECB4839C6627D68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalciLibrary-CalciLibraryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE41CF6E64715DD1514A8F86 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,6 +408,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		FE4A03ED24EB66FD008D0AAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\" -name \"*.dSYM\" | xargs -I \\{\\} $PODS_ROOT/FirebaseCrashlytics/upload-symbols -gsp ${SRCROOT}/GoogleService-Info.plist -p ios \\{\\}\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -366,9 +442,9 @@
 				FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */,
 				FE91B0B624E9A8F3009B940D /* ReverseGeocodeService.swift in Sources */,
 				FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */,
-				FE0FE22724EABBEA00CD7D04 /* Analytics.swift in Sources */,
+				FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */,
 				FE91B0AF24E9A8EC009B940D /* HttpClient.swift in Sources */,
-				FE5A4E6724EAAC02006D7A33 /* FirebaseAnalytics.swift in Sources */,
+				FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */,
 				FE91B0B424E9A8F3009B940D /* BitCoinService.swift in Sources */,
 				FE91B0B524E9A8F3009B940D /* Calculator.swift in Sources */,
 				FE91B0B724E9A8F3009B940D /* RemoteConfigService.swift in Sources */,
@@ -379,10 +455,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE91B0C124E9A916009B940D /* MockBitCoinService.swift in Sources */,
-				FE91B0C324E9A916009B940D /* MockRemoteConfigService.swift in Sources */,
+				FE4A03E024EB6082008D0AAF /* BitCoin.swift in Sources */,
+				FE4A03E124EB6082008D0AAF /* HttpClient.swift in Sources */,
+				FE4A03E224EB6082008D0AAF /* URLSessionProtocol.swift in Sources */,
+				FE4A03E324EB6082008D0AAF /* Event.swift in Sources */,
+				FE4A03E424EB6082008D0AAF /* Analysable.swift in Sources */,
+				FE4A03E524EB6082008D0AAF /* BitCoinService.swift in Sources */,
+				FE4A03E624EB6082008D0AAF /* Calculator.swift in Sources */,
+				FE4A03E724EB6082008D0AAF /* RemoteConfigService.swift in Sources */,
+				FE4A03E824EB6082008D0AAF /* ReverseGeocodeService.swift in Sources */,
+				FE4A03E924EB6082008D0AAF /* BitCoinManager.swift in Sources */,
+				FE4A03EA24EB6082008D0AAF /* FirebaseManager.swift in Sources */,
+				FE4A03EB24EB6082008D0AAF /* ReverseGeocodeManager.swift in Sources */,
+				FE4A03DF24EB606E008D0AAF /* EventType.swift in Sources */,
+				FE4A03DE24EB606B008D0AAF /* CalciLibrary+CalciAnalytics.swift in Sources */,
 				FE91B09124E9A8B5009B940D /* CalciLibraryTests.swift in Sources */,
-				FE91B0C224E9A916009B940D /* MockReverseGeocodeService.swift in Sources */,
+				FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */,
+				FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */,
+				FE0FE22F24EAD3C600CD7D04 /* MockReverseGeocodeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +609,7 @@
 		};
 		FE91B09724E9A8B5009B940D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05891435427876A564B3E799 /* Pods-CalciLibrary.debug.xcconfig */;
+			baseConfigurationReference = 531358C6F1778C03179ACBE1 /* Pods-CalciLibrary.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,7 +635,7 @@
 		};
 		FE91B09824E9A8B5009B940D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DC150A185A16B609AD52F19 /* Pods-CalciLibrary.release.xcconfig */;
+			baseConfigurationReference = CA6BBAE721B80FCE7E238057 /* Pods-CalciLibrary.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -570,7 +660,7 @@
 		};
 		FE91B09A24E9A8B5009B940D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F469A6F257467B6BED6010F7 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */;
+			baseConfigurationReference = 1A9B14AD34DBC3B351A2F669 /* Pods-CalciLibrary-CalciLibraryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -589,7 +679,7 @@
 		};
 		FE91B09B24E9A8B5009B940D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38D1FC620EEF39D8CEDF3761 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */;
+			baseConfigurationReference = 78A54F4CA688C89D4C982692 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

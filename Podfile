@@ -8,6 +8,7 @@ target 'CalciLibrary' do
   # Pods for CalciLibrary
   pod 'Firebase', "~> 6.30.0"
   pod 'Firebase/Analytics', "~> 6.30.0"
+  pod 'Firebase/Crashlytics', "~> 6.30.0"
   pod 'Firebase/RemoteConfig', "~> 6.30.0"
 
   target 'CalciLibraryTests' do
