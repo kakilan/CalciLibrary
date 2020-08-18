@@ -18,10 +18,10 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, "12.0"
   spec.homepage         = "http://raywenderlich.com"
   spec.source           = { :git => "https://github.com/kakilan/CalciLibrary.git", :tag => "1.0.0" }
-  spec.source_files     = "CalciLibrary"
+  spec.source_files     = "CalciLibrary/**/*.swift"
   spec.requires_arc     = true
   spec.static_framework = true
-  spec.resources = "CalciLibrary/GoogleService-Info.plist"
+  spec.resources        = "CalciLibrary/GoogleService-Info.plist"
   spec.dependency "Firebase", "~> 6.30.0"
   spec.dependency "Firebase/Analytics", "~> 6.30.0"
   spec.dependency "Firebase/RemoteConfig", "~> 6.30.0"
