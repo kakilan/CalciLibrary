@@ -20,7 +20,8 @@ class FirebaseManager {
         let bundle = Bundle(for: type(of: self))
         if
             let filePath = bundle.path(forResource: "GoogleService-Info", ofType: "plist"),
-            let options = FirebaseOptions(contentsOfFile: filePath) {
+            let options = FirebaseOptions(contentsOfFile: filePath),
+            FirebaseApp.app() == nil {
             FirebaseApp.configure(options: options)
         }
         

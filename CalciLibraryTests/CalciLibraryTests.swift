@@ -66,7 +66,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         let actual = calculator.add(operand1: "32", and: "Not a number")
         XCTAssertTrue(expected == actual)
     }
@@ -106,7 +106,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         let actual = calculator.subtract(operand1: "20", and: "Not a number")
         XCTAssertTrue(expected == actual)
     }
@@ -156,7 +156,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         let actual = calculator.multiply(operand1: "12", with: "Not a number")
         XCTAssertTrue(expected == actual)
     }
@@ -206,7 +206,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         let actual = calculator.divide(operand1: "6", by: "Not a number")
         XCTAssertTrue(expected == actual)
     }
@@ -226,7 +226,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         let actual = calculator.divide(operand1: "32.75", by: "0")
         XCTAssertTrue(expected == actual)
     }
@@ -266,7 +266,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         let actual = calculator.sineOf(degrees: "Not a number")
         XCTAssertTrue(expected == actual)
     }
@@ -306,7 +306,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         let actual = calculator.cosineOf(degrees: "Not a number")
         XCTAssertTrue(expected == actual)
     }
@@ -338,7 +338,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.informationUnavailable.localised
+        let expected = CalciString.informationUnavailable.localised
         calculator.bitValueOf(coin: "19.09") { (actual) in
             XCTAssertTrue(expected == actual)
         }
@@ -349,7 +349,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         calculator.bitValueOf(coin: "Not a number") { (actual) in
             XCTAssertTrue(expected == actual)
         }
@@ -372,7 +372,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.informationUnavailable.localised
+        let expected = CalciString.informationUnavailable.localised
         calculator.addressOf(latitude: "40.706031", longitude: "-74008813") { (actual) in
             XCTAssertTrue(expected == actual)
         }
@@ -383,7 +383,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = LocalizedString.invalidOperation.localised
+        let expected = CalciString.invalidOperation.localised
         calculator.addressOf(latitude: "40.706031", longitude: "Not a number") { (actual) in
             XCTAssertTrue(expected == actual)
         }

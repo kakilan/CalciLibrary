@@ -51,7 +51,7 @@ class ReverseGeocodeManager: ReverseGeocodeService {
                 if let placemarks = placemarks, let placemark = placemarks.first {
                     completion(placemark.compactAddress, nil)
                 } else {
-                    completion(LocalizedString.noValidAddress.localised, nil)
+                    completion(CalciString.noValidAddress.localised, nil)
                 }
             }
         }
