@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol Event {
+protocol Event {
     var name: String { get }
 }

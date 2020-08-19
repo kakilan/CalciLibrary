@@ -32,7 +32,7 @@
 		FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0B924E9A8FB009B940D /* ReverseGeocodeManager.swift */; };
 		FE91B0C724E9A9EC009B940D /* CalciLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */; };
 		FED1105124EC2F7F00CC5212 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED1105324EC2F7F00CC5212 /* Localizable.strings */; };
-		FED1105824EC323100CC5212 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1105724EC323100CC5212 /* LocalizedString.swift */; };
+		FED1105824EC323100CC5212 /* CalciString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1105724EC323100CC5212 /* CalciString.swift */; };
 		FED1105A24EC329400CC5212 /* Localisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1105924EC329400CC5212 /* Localisable.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,7 +82,7 @@
 		FED1105424EC2FAE00CC5212 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FED1105524EC2FB900CC5212 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FED1105624EC2FC200CC5212 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FED1105724EC323100CC5212 /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		FED1105724EC323100CC5212 /* CalciString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalciString.swift; sourceTree = "<group>"; };
 		FED1105924EC329400CC5212 /* Localisable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localisable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,7 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				FE5A4E6224EAAB85006D7A33 /* EventType.swift */,
-				FED1105724EC323100CC5212 /* LocalizedString.swift */,
+				FED1105724EC323100CC5212 /* CalciString.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -448,7 +448,7 @@
 				FE91B0B624E9A8F3009B940D /* ReverseGeocodeService.swift in Sources */,
 				FE91B0BD24E9A8FB009B940D /* ReverseGeocodeManager.swift in Sources */,
 				FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */,
-				FED1105824EC323100CC5212 /* LocalizedString.swift in Sources */,
+				FED1105824EC323100CC5212 /* CalciString.swift in Sources */,
 				FE91B0AF24E9A8EC009B940D /* HttpClient.swift in Sources */,
 				FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */,
 				FE91B0B424E9A8F3009B940D /* BitCoinService.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  LocalizedString.swift
+//  CalciString.swift
 //  CalciLibrary
 //
 //  Created by Akilan on 18/08/20.
@@ -8,13 +8,13 @@
 
 import Foundation
 
-public enum LocalizedString {
+public enum CalciString {
     case noValidAddress
     case invalidOperation
     case informationUnavailable
 }
 
-extension LocalizedString: Localisable {
+extension CalciString: Localisable {
     public var localised: String {
         get {
             switch self {
