@@ -8,10 +8,10 @@
 
 import Foundation
 
-public protocol Analysable {
+protocol Analysable {
     static func logEvent(event: Event, parameters: [String : Any]?)
 }
 
 extension Analysable {
-    public static func logEvent(event: Event, parameters: [String : Any]? = nil) { }
+    static func logEvent(event: Event, parameters: [String : Any]? = nil) { }
 }

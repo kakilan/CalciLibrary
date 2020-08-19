@@ -9,8 +9,8 @@
 import FirebaseAnalytics
 
 extension CalciLibrary {
-    public struct CalciAnalytics: Analysable {
-        public static func logEvent(event: Event, parameters: [String : Any]? = nil) {
+    struct CalciAnalytics: Analysable {
+        static func logEvent(event: Event, parameters: [String : Any]? = nil) {
             Analytics.logEvent(event.name, parameters: parameters)
         }
     }

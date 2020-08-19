@@ -31,7 +31,7 @@ class HttpClient {
         self.session = session
     }
     
-    public func request<T: Decodable>(endpoint: String,
+    func request<T: Decodable>(endpoint: String,
                                httpMethod: HttpMethod,
                                _ parameters: [String: String] = [String: String](),
                                completion: @escaping (HTTPResult<T, Error>) -> Void) {

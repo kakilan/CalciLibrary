@@ -14,7 +14,7 @@ class FirebaseManager {
     private var remoteConfig: RemoteConfig = RemoteConfig.remoteConfig()
     private var offlineOperations: Array<String> = ["canAdd", "canSubtract", "canMultiply", "canDivide", "canDoSine", "canDoCosine"]
     
-    public init() {
+    init() {
         
         // configure FirebaseApp
         let bundle = Bundle(for: type(of: self))
@@ -43,7 +43,7 @@ class FirebaseManager {
 }
 
 extension FirebaseManager: RemoteConfigService {
-    public func fetchRemoteConfig(completion: @escaping(_ supportedOperations: Array<String>, _ error: Error?) -> Void) {
+    func fetchRemoteConfig(completion: @escaping(_ supportedOperations: Array<String>, _ error: Error?) -> Void) {
         remoteConfig.fetchAndActivate { [unowned self] (status, error) in
             var availableOperations: Array<String> = Array<String>()
             guard error == nil else {

@@ -13,7 +13,7 @@ class BitCoinManager {
     private let API = "https://api.coindesk.com/v1/bpi/currentprice.json"
     private let httpClient: HttpClient
 
-    public init(_ httpClient: HttpClient = HttpClient()) {
+    init(_ httpClient: HttpClient = HttpClient()) {
         self.httpClient = httpClient
     }
     
@@ -25,7 +25,7 @@ class BitCoinManager {
 }
 
 extension BitCoinManager: BitCoinService {
-    public func getBitCoinValue(completion: @escaping (Double?) -> Void) {
+    func getBitCoinValue(completion: @escaping (Double?) -> Void) {
         get { (result) in
             switch result {
             case .success(let bitCoin):

@@ -38,7 +38,7 @@ class ReverseGeocodeManager: ReverseGeocodeService {
     
     private lazy var geocoder = CLGeocoder()
     
-    public func reverseGeocode(latitude: Double, longitude: Double, completion: @escaping (String?, Error?) -> Void) {
+    func reverseGeocode(latitude: Double, longitude: Double, completion: @escaping (String?, Error?) -> Void) {
         // Create Location
         let location = CLLocation(latitude: latitude, longitude: longitude)
 
