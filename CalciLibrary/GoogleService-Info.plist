@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>919235991541-e0j276g72dv8fe7r1ea1j9mbqi11pdvm.apps.googleusercontent.com</string>
+	<string>919235991541-oar76ss4sb73uugk0mffgj697ppgssph.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.919235991541-e0j276g72dv8fe7r1ea1j9mbqi11pdvm</string>
+	<string>com.googleusercontent.apps.919235991541-oar76ss4sb73uugk0mffgj697ppgssph</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDgeUL4gehGRA9j3IPORcnwH2xmLWxnx68</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.akil.Calci</string>
+	<string>leoVegas.CalciLibrary</string>
 	<key>PROJECT_ID</key>
 	<string>calci-28f79</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:919235991541:ios:03f4803fc626a86da6b2bc</string>
+	<string>1:919235991541:ios:8c405cae5572194da6b2bc</string>
 	<key>DATABASE_URL</key>
 	<string>https://calci-28f79.firebaseio.com</string>
 </dict>

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		6B65205146F2294439F0B418 /* Pods_CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909D9C13968909F79790B3 /* Pods_CalciLibrary.framework */; };
 		96454777DC3724788C7F61C7 /* Pods_CalciLibrary_CalciLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */; };
+		FE0B56A824ECFD4800ECE62C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0B56A724ECFD4800ECE62C /* GoogleService-Info.plist */; };
 		FE0FE22724EABBEA00CD7D04 /* Analysable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22624EABBEA00CD7D04 /* Analysable.swift */; };
 		FE0FE22924EABEF200CD7D04 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22824EABEF200CD7D04 /* Event.swift */; };
 		FE0FE22F24EAD3C600CD7D04 /* MockReverseGeocodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */; };
 		FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */; };
 		FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */; };
-		FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */; };
 		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
 		FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */; };
 		FE91B08C24E9A8B5009B940D /* CalciLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91B08224E9A8B5009B940D /* CalciLibrary.framework */; };
@@ -53,12 +53,12 @@
 		55897A84CF704EE2ECF0BE50 /* Pods_CalciLibrary_CalciLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalciLibrary_CalciLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A54F4CA688C89D4C982692 /* Pods-CalciLibrary-CalciLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary-CalciLibraryTests/Pods-CalciLibrary-CalciLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
 		CA6BBAE721B80FCE7E238057 /* Pods-CalciLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalciLibrary.release.xcconfig"; path = "Target Support Files/Pods-CalciLibrary/Pods-CalciLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		FE0B56A724ECFD4800ECE62C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE0FE22624EABBEA00CD7D04 /* Analysable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analysable.swift; sourceTree = "<group>"; };
 		FE0FE22824EABEF200CD7D04 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		FE0FE22C24EAD3C600CD7D04 /* MockReverseGeocodeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReverseGeocodeService.swift; sourceTree = "<group>"; };
 		FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRemoteConfigService.swift; sourceTree = "<group>"; };
 		FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBitCoinService.swift; sourceTree = "<group>"; };
-		FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5A4E6224EAAB85006D7A33 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
 		FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalciLibrary+CalciAnalytics.swift"; sourceTree = "<group>"; };
 		FE91B08224E9A8B5009B940D /* CalciLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalciLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,7 +216,7 @@
 				FE4A03DB24EB5EAD008D0AAF /* Services */,
 				FE91B08524E9A8B5009B940D /* CalciLibrary.h */,
 				FE91B0C424E9A9EC009B940D /* CalciLibrary.swift */,
-				FE0FE26424EAF19400CD7D04 /* GoogleService-Info.plist */,
+				FE0B56A724ECFD4800ECE62C /* GoogleService-Info.plist */,
 				FE91B08624E9A8B5009B940D /* Info.plist */,
 				FED1105324EC2F7F00CC5212 /* Localizable.strings */,
 			);
@@ -335,8 +335,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0FE26524EAF19400CD7D04 /* GoogleService-Info.plist in Resources */,
 				FED1105124EC2F7F00CC5212 /* Localizable.strings in Resources */,
+				FE0B56A824ECFD4800ECE62C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
