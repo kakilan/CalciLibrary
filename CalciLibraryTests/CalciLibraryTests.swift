@@ -326,7 +326,7 @@ class CalciLibraryTests: XCTestCase {
                                   bitCoinService: mockBitCoinService,
                                   reverseGeocodeService: mockReverseGeocodeService)
         
-        let expected = "265252"
+        let expected = "$265252"
         calculator.bitValueOf(coin: "23") { (actual) in
             XCTAssertTrue(expected == actual)
         }
