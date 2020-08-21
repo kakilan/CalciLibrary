@@ -95,7 +95,7 @@ extension CalciLibrary: Calculator {
         }
         bitCoinService.getBitCoinValue { [unowned self] (value) in
             if let bitCoinValue = value {
-                completion(self.multiply(operand1: coin, with: String(format: "%g", bitCoinValue)))
+                completion("$" + self.multiply(operand1: coin, with: String(format: "%g", bitCoinValue)))
             } else {
                 completion(CalciString.informationUnavailable.localised)
             }
