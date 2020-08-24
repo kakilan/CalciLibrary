@@ -16,7 +16,6 @@
 		FE0FE23024EAD3C600CD7D04 /* MockRemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */; };
 		FE0FE23124EAD3C600CD7D04 /* MockBitCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */; };
 		FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6224EAAB85006D7A33 /* EventType.swift */; };
-		FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */; };
 		FE837C9D24EE8802002F976B /* OfflineOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE837C9C24EE8802002F976B /* OfflineOperations.swift */; };
 		FE837C9F24EE8845002F976B /* OnlineOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE837C9E24EE8845002F976B /* OnlineOperations.swift */; };
 		FE837CA124EE88C0002F976B /* RemoteConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE837CA024EE88BF002F976B /* RemoteConfigurable.swift */; };
@@ -63,7 +62,6 @@
 		FE0FE22D24EAD3C600CD7D04 /* MockRemoteConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRemoteConfigService.swift; sourceTree = "<group>"; };
 		FE0FE22E24EAD3C600CD7D04 /* MockBitCoinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBitCoinService.swift; sourceTree = "<group>"; };
 		FE5A4E6224EAAB85006D7A33 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
-		FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalciLibrary+CalciAnalytics.swift"; sourceTree = "<group>"; };
 		FE837C9C24EE8802002F976B /* OfflineOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineOperations.swift; sourceTree = "<group>"; };
 		FE837C9E24EE8845002F976B /* OnlineOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineOperations.swift; sourceTree = "<group>"; };
 		FE837CA024EE88BF002F976B /* RemoteConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigurable.swift; sourceTree = "<group>"; };
@@ -186,14 +184,6 @@
 			path = Enum;
 			sourceTree = "<group>";
 		};
-		FE4A03DD24EB5F94008D0AAF /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				FE5A4E6624EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		FE91B07824E9A8B5009B940D = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +207,6 @@
 		FE91B08424E9A8B5009B940D /* CalciLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				FE4A03DD24EB5F94008D0AAF /* Extension */,
 				FE4A03DC24EB5F85008D0AAF /* Enum */,
 				FE4A03D824EB5E91008D0AAF /* Model */,
 				FE4A03D924EB5E9A008D0AAF /* Network */,
@@ -462,7 +451,6 @@
 				FED1105824EC323100CC5212 /* CalciString.swift in Sources */,
 				FE837C9F24EE8845002F976B /* OnlineOperations.swift in Sources */,
 				FE91B0AF24E9A8EC009B940D /* HttpClient.swift in Sources */,
-				FE5A4E6724EAAC02006D7A33 /* CalciLibrary+CalciAnalytics.swift in Sources */,
 				FE91B0B424E9A8F3009B940D /* BitCoinService.swift in Sources */,
 				FE91B0B524E9A8F3009B940D /* Calculator.swift in Sources */,
 				FE91B0B724E9A8F3009B940D /* RemoteConfigService.swift in Sources */,

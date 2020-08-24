@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FirebaseAnalytics
 
 open class CalciLibrary {
         
@@ -122,6 +123,14 @@ extension CalciLibrary: Calculator {
     public func getAvailableOperations(completion: @escaping(_ supportedOperations: Array<String>) -> Void) {
         remoteConfig.fetchRemoteConfig { (operations, error) in
             completion(operations)
+        }
+    }
+}
+
+extension CalciLibrary {
+    public struct CalciAnalytics: Analysable {
+        public static func logEvent(event: Event, parameters: [String : Any]? = nil) {
+            Analytics.logEvent(event.name, parameters: parameters)
         }
     }
 }
