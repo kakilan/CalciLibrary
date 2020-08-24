@@ -93,12 +93,12 @@ extension CalciLibrary: Calculator {
             completion(CalciString.invalidOperation.localised)
             return
         }
-        bitCoinService.getBitCoinValue { [unowned self] (value) in
-            if let bitCoinValue = value {
-                completion("$" + self.multiply(operand1: coin, with: String(format: "%g", bitCoinValue)))
-            } else {
+        bitCoinService.getBitCoinValue { (value) in
+            guard let bitCoinValue = value else {
                 completion(CalciString.informationUnavailable.localised)
+                return
             }
+            completion("$" + self.multiply(operand1: coin, with: String(format: "%g", bitCoinValue)))
         }
     }
     
