@@ -36,6 +36,7 @@
 		FED1105124EC2F7F00CC5212 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED1105324EC2F7F00CC5212 /* Localizable.strings */; };
 		FED1105824EC323100CC5212 /* CalciString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1105724EC323100CC5212 /* CalciString.swift */; };
 		FED1105A24EC329400CC5212 /* Localisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1105924EC329400CC5212 /* Localisable.swift */; };
+		FEF5249624F3C6CF004AB810 /* CalciLibrary+CalciAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5249524F3C6CF004AB810 /* CalciLibrary+CalciAnalytics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		FED1105624EC2FC200CC5212 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FED1105724EC323100CC5212 /* CalciString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalciString.swift; sourceTree = "<group>"; };
 		FED1105924EC329400CC5212 /* Localisable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localisable.swift; sourceTree = "<group>"; };
+		FEF5249524F3C6CF004AB810 /* CalciLibrary+CalciAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalciLibrary+CalciAnalytics.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				FE4A03DC24EB5F85008D0AAF /* Enum */,
+				FEF5249424F3C6A8004AB810 /* Extensions */,
 				FE4A03D824EB5E91008D0AAF /* Model */,
 				FE4A03D924EB5E9A008D0AAF /* Network */,
 				FE4A03DA24EB5EA3008D0AAF /* Protocols */,
@@ -231,6 +234,14 @@
 				FE91B09224E9A8B5009B940D /* Info.plist */,
 			);
 			path = CalciLibraryTests;
+			sourceTree = "<group>";
+		};
+		FEF5249424F3C6A8004AB810 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEF5249524F3C6CF004AB810 /* CalciLibrary+CalciAnalytics.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF5249624F3C6CF004AB810 /* CalciLibrary+CalciAnalytics.swift in Sources */,
 				FE5A4E6324EAAB85006D7A33 /* EventType.swift in Sources */,
 				FE837C9D24EE8802002F976B /* OfflineOperations.swift in Sources */,
 				FE91B0AE24E9A8EC009B940D /* URLSessionProtocol.swift in Sources */,
